@@ -1,3 +1,20 @@
+# 📊 Data Processing: Multiple Files with Pandas
+
+This project demonstrates how to efficiently process and analyze multiple CSV files using **Pandas**. It's useful for data analysts and data engineers who need to batch-process data from various sources and combine them into a single structured DataFrame.
+
+## 🚀 Features
+
+- Read and combine multiple CSV files into one DataFrame  
+- Clean and preprocess data efficiently  
+- Perform analysis across datasets  
+- Export final results to a new CSV
+
+## 🧰 Technologies Used
+
+- Python 3.10+  
+- Pandas  
+- Jupyter Notebook (for demonstration)
+
 It's very common that the data we need is scattered around many files, especially CSVs. Or it could be that it's in one file but in multiple worksheets. So far we have been using the [`pandas.read_csv()`](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html) function which is straightforward: give it a CSV, and it will create a dataframe with all columns and rows found in the CSV.
 
 When you have multiple files, it's a bit different. Sure you can load 10 files into 10 different dataframes, but what if you want to **reconciliate** the data? Welcome to the wonderful world of **Pandas Merging**.
